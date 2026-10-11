@@ -1,12 +1,7 @@
 # Datos
 
-Coloca aquí el archivo CSV (o Excel) descargado de Kaggle.
+Archivo del proyecto:
 
-Ejemplo:
+- `StudentPerformanceFactors.csv` — 6,607 estudiantes y 20 variables, descargado de [Student Performance Factors (Kaggle)](https://www.kaggle.com/datasets/fares279/student-performance-factors).
 
-```text
-data/
-  WA_Fn-UseC_-HR-Employee-Attrition.csv
-```
-
-No subas credenciales de Kaggle (`kaggle.json`) ni el ZIP sin extraer.
+El diccionario completo de variables está en el `README.md` de la raíz del repositorio.
