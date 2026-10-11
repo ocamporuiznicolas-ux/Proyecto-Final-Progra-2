@@ -5,6 +5,7 @@ Análisis exploratorio y limpieza de datos del conjunto **Student Performance Fa
 ## Integrantes
 -Nciholas Ocampo Ruiz 
 -Rafael Lamar Martinez Romero
+-Juan Jose Leal Tinjaca
 ## Fuente de datos
 
 - **Dataset:** Student Performance Factors
