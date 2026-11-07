@@ -70,8 +70,14 @@ Algunas columnas tienen valores faltantes (sobre todo `Teacher_Quality`, `Parent
 
 ## Conclusiones finales del notebook
 
-1.
-2.
-3.
-4.
-5.
+
+
+1. **Calidad de los datos:** el dataset tenía pocos datos faltantes (ninguna columna superó el 1.4%), así que no se eliminó ninguna columna. Se eliminaron 21 filas con nulos en columnas casi completas y se imputaron con la moda `Teacher_Quality`, `Parental_Education_Level` y `Distance_from_Home`. También se eliminaron registros inconsistentes (un puntaje mayor a 100 y una asistencia negativa). La base final quedó con 6,584 estudiantes, sin nulos ni duplicados.
+
+2. **Distribución del puntaje:** la mayoría de los estudiantes obtiene entre 60 y 75 puntos en el examen (cerca del 98%), con un promedio de 67.2. Muy pocos superan los 80 puntos (menos del 1%), por lo que los puntajes altos son casos excepcionales.
+
+3. **La asistencia es el factor más importante:** es la variable con mayor relación con el puntaje (correlación de 0.58). Los estudiantes con 90–100% de asistencia promedian 70.1 puntos, frente a 64.3 de quienes asisten entre 60% y 70%.
+
+4. **Las horas de estudio también influyen:** tienen una correlación positiva moderada (0.45) con el puntaje. Quienes estudian más de 30 horas promedian cerca de 71 puntos, mientras que quienes estudian 10 horas o menos promedian cerca de 64.
+
+5. **El entorno del estudiante suma, pero hay hábitos que no influyen:** un mayor involucramiento de los padres y un mejor acceso a recursos se asocian con mejores resultados (69.1 puntos cuando ambos son altos frente a 65.2 cuando ambos son bajos). En cambio, las horas de sueño (-0.02) y la actividad física (0.03) prácticamente no tienen relación con el puntaje del examen.
